@@ -1,0 +1,14 @@
+:root {
+    color-scheme: light dark;
+    /* background-color: #1f2833; */
+    background-image: url('https://static.vecteezy.com/system/resources/previews/026/535/202/original/3d-circles-minimalist-black-abstract-background-with-blurred-effect-circular-composition-dark-gray-minimalism-style-wallpaper-dark-grey-technology-pattern-blank-backdrop-for-business-vector.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}

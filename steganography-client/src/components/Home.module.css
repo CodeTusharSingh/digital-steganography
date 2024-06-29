@@ -1,0 +1,203 @@
+.homeHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: rgb(0, 0, 0, 0.8);
+}
+
+.homeHeaderLogo img {
+    height: 110px;
+}
+
+.homeHeaderNavBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+    position: relative;
+    bottom: 10px;
+}
+
+.homeHeaderNavBar p {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3f48cc;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.homeHeaderNavBar p:hover {
+    font-size: 19px;
+}
+
+.homeHeaderMenu {
+    position: relative;
+    bottom: 15px;
+    display: none;
+    cursor: pointer;
+}
+
+#homeHeaderMenuIcon {
+    display: none;
+}
+
+#homeHeaderMenuCloseIcon {
+    display: none;
+}
+
+/* #homeHeaderNavBarHome {} */
+
+/* #homeHeaderNavBarTool {} */
+
+.homeHeaderContainerMobileNavBar {
+    display: none;
+}
+
+.homeHeaderMobileNavBar {
+    background-color: #3f48cc;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.homeHeaderMobileNavBar p {
+    background-color: #3f48cc;
+    color: rgba(254, 231, 54, 1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.homeHeaderMobileNavBar p:hover {
+    font-size: 19px;
+}
+
+#homeHeaderMobileNavBarHome {
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#homeHeaderMobileNavBarTool {
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.homeIntro {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.homeSectionDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.homeSectionDiv p {
+    width: 90%;
+    color: #66fcf1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.homeSectionDiv ol {
+    color: #c5c6c7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.homeSectionDiv img {
+    width: 40%;
+}
+
+.homeFooter {
+    background-color: rgb(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.homeFooter div {
+    margin-left: 50px;
+}
+
+#homeFooterContactInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    flex-wrap: wrap;
+}
+
+#homeFooterContactInfo a {
+    color: #c5c6c7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .homeSectionDiv img {
+        width: 80%;
+    }
+
+    .homeHeader {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        background: rgb(0, 0, 0, 0.8);
+    }
+
+    .homeHeaderLogo img {
+        height: 110px;
+    }
+
+    .homeHeaderNavBar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        position: relative;
+        display: none;
+    }
+
+    .homeHeaderMenu {
+        position: relative;
+        bottom: 15px;
+        display: inline;
+    }
+
+    #homeHeaderMenuIcon {
+        display: inline;
+    }
+
+    .homeHeaderContainerMobileNavBar {
+        display: block;
+    }
+
+    .homeHeaderMobileNavBar {
+        background-color: #3f48cc;
+        color: rgba(254, 231, 54, 1);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        display: none;
+    }
+}
